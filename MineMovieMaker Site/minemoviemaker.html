@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="minemoviemaker.css">
+    <title>Mine Movie Maker</title>
+  </head>
+  <body>
+    <div id="top">
+      <button onclick="Color()" id="night">Night Mode</button>
+      <button onclick="Color1()" id="day">Day Mode</button>
+      <a href="https://www.youtube.com/channel/UCCBJAOITPP3AJ_3ghpdZr5w" target="_blank"><img src="mine_logo.png" alt="Mine Movie Maker Logo (vector art Steve from the videogame Minecraft)" id="logo" align="left"></a>
+      <a href="about.html" id="about">About Me</a>
+      <a href="https://www.youtube.com/channel/UCCBJAOITPP3AJ_3ghpdZr5w" id="channel"  target="_blank">Mine Movie Maker</a>
+      <a href="mailto:rnbrancher@gmail.com" id="contact">Contact</a>
+    </div>
+    <center>
+    <div id="middle">
+      <h1 id="welcome">Welcome To: Mine Movie Maker</h1>
+      <h1 id="latest">Check Out The Latest Content!</h1>
+    </div>
+    <iframe width="1024" height="512" src="https://www.youtube.com/embed/QOEgs_LYInw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+    <div id="aboutme">
+      <p>HI, welcome to Mine Movie Maker! on this channel we exlore video game worlds, dive into stop-motion animation and more :).</p>
+      <br />
+      <p>Theres a lot to look forward too so stay tuned and be sure to click the link to get to the official Mine Movie Maker YouTube channel ;)</p>
+    </div>
+    </center>
+  </body>
+</html>
+<script>
+  function Color() {
+    document.body.style.backgroundColor = "#2b2e2c";
+    document.getElementById("about").style.color = "White"
+    document.getElementById("contact").style.color = "White"
+    document.getElementById("welcome").style.color = "White"
+    document.getElementById("latest").style.color = "White"
+    document.getElementById("channel").style.color = "#ff5338"
+  }
+  function Color1() {
+    document.body.style.backgroundColor = "#ff5338";
+    document.getElementById("about").style.color = "#2b2e2c"
+    document.getElementById("contact").style.color = "#2b2e2c"
+    document.getElementById("welcome").style.color = "#2b2e2c"
+    document.getElementById("latest").style.color = "#2b2e2c"
+    document.getElementById("channel").style.color = "White"
+  }
+</script>

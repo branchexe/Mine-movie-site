@@ -1,0 +1,9 @@
+1) More responsive links on top navigation bar
+2) More about me stuff
+3) About me links to that portion of the page or a whole seperate about me page
+4) Fine tune Steve logo (better positioning)
+5) Fix padding on when hovering over navigation bar elements (steve logo may hold the answer to this seeing as it does not move elements when being hovered over)
+6) Special effects on words (especially about me)
+7) more images
+8) cosmetics of dark and light mode buttons, maybe add moon or sun icon, maybe animated icon could be done by trading buttons with image with href attatched (or integrate buttons)
+9) Add the quiet fox logo or website credits page
